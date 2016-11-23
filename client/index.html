@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Node.js on Galileo board demo</title>
+    </head>
+    <body>
+        <form id="lightsensor" method="GET" action="http://192.168.15.234:1337/lightsensor">
+        <label> Getting light sensor status </label>
+        <input type="submit" value="Retrieve it!" /><br>
+        </form>
+        <form id="ledon" method="GET" action="http://192.168.15.234:1337/ledon">
+        <label> Turn on/off the light :</label><br>
+        <input type="submit" value="Turn on" />
+        </form>
+        <form id="ledoff" method="GET" action="http://192.168.15.234:1337/ledoff">
+        <input type="submit" value="Turn off" />
+        </form>
+    </body>
+</html>
